@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+.recuadro_main{
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.resal_dato{
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-right: 500px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.text_justify{
+    text-align: justify;
+}
+foto_desing{
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px;
+}
