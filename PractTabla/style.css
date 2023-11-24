@@ -1,0 +1,25 @@
+table,tr,td{
+    border-collapse: collapse;
+    border: 1px solid orange;
+}
+.fotoright{
+    float: right;
+    width: 100px;
+
+}
+.espacioBlanco{
+    clear: both;
+}
+.centrados{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+.marginLeft{
+    margin-left: 30px;
+    
+}
+.decorationtable tr:nth-child(even){
+    background-color: #ea9d45;
+}

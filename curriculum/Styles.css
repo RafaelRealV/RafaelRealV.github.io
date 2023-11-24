@@ -1,12 +1,27 @@
 body {
-    text-align: center;
     background-color: black;
 }
+section{
+    margin: 0 auto;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    "h h h"
+    ". im ."
+    "i esc con"
+    ;
+}
 .recuadro_main{
-    border-radius: 10px;
-    background-color: white;
+    border-radius: 20px;
+    background-color: greenyellow;
     margin-left: 200px;
     margin-right: 200px;
+    padding: 50px;
+}
+.losheader{
+    background-color: aqua;
+    margin: 0 auto;
 }
 .resal_dato{
     background-color: aliceblue;
@@ -21,4 +36,21 @@ body {
 foto_desing{
     border-radius: 30px;
     box-shadow: 3px 3px 3px;
+    width: 100%;
 }
+section#im{
+    grid-area: im;
+}
+section#con{
+    grid-area: con;
+}
+section#i{
+    grid-area: i;
+}
+section#esc{
+    grid-area: esc;
+}
+header{
+    grid-area: h;
+}
+
